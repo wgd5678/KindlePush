@@ -1,0 +1,17 @@
+# Kindle 推送助手依赖清单（SRS 7）
+# stkclient: 亚马逊 Send to Kindle 非官方 SDK（https://github.com/maxdjohnson/stkclient）
+PyQt5>=5.15.0
+stkclient>=0.1.0
+cryptography>=41.0.0
+psutil>=5.9.0
+pyinstaller>=6.0.0
+
+# 本地 PDF→EPUB 转换（API 推送免邮箱转换）
+pypdfium2>=4.30
+rapidocr-onnxruntime>=1.2.3,<2
+opencv-python-headless>=4.8
+# onnxruntime 1.21+ 在部分 Windows 机器上有 DLL 初始化失败问题，锁定 1.20 系列
+onnxruntime>=1.20.1,<1.21
+
+# AZW3/MOBI→EPUB 转换（KindleUnpack 的 Python 移植，纯 Python）
+mobi>=0.4,<0.5

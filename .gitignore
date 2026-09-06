@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+.venv/
+
+# 运行时数据（含敏感信息，勿提交）
+config.json
+crypto.key
+api_oauth_state.json
+push_history.json
+logs/
+temp/
+
+# 打包产物
+dist/
+build/kindle_push/
+build/*.pyc
+*.spec.bak
+*.exe
+
+# 个人文件（书籍、手册等）
+docs/BOOK/
+docs/用户手册.pdf
+
+# Qoder 工作区
+.qoder/
+
+# IDE
+.idea/
+.vscode/
+*.swp
