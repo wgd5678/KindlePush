@@ -1,5 +1,7 @@
 # Kindle 推送助手（KindlePushAssistant）
 
+中文 | [English](README_EN.md)
+
 Windows 桌面应用：把本地 PDF / EPUB / DOCX / TXT / RTF 文档推送到个人 Kindle。
 支持把 PDF 本地转换为 EPUB（内置离线 OCR，扫描版也能转）再经 API 推送，
 或通过亚马逊邮件云端转换（→ KFX），支持转换前的本地备份下载。
